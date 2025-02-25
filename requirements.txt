@@ -7,3 +7,4 @@ newsapi
 vaderSentiment
 plotly_express
 pyxirr
+scikit-learn
