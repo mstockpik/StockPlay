@@ -203,8 +203,8 @@ def generate_stock_prediction(stock_ticker):
             end=test_df.index[-1] + dt.timedelta(days=90),
             dynamic=True,
         )
-        r2=r2_score(test_df, predictions).round(2)
-        MAPE = mean_absolute_percentage_error(test_df, predictions).round(2)
+        r2=r2_score(test_df, predictions)
+        MAPE = mean_absolute_percentage_error(test_df, predictions)
 		# Return the required data
         return train_df, test_df, forecast, predictions, r2, MAPE
 
