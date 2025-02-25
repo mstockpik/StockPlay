@@ -8,3 +8,4 @@ plotly_express
 pyxirr
 scikit-learn
 newsapi-python
+statsmodels
