@@ -211,4 +211,4 @@ def generate_stock_prediction(stock_ticker):
     # If error occurs
     except:
         # Return None
-        return None, None, None, None
+        return None, None, None, None, None, None
