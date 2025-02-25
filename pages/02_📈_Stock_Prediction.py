@@ -227,11 +227,11 @@ col1, col2 = st.columns(2)
 # Display R2 in the first column with larger font size
 with col1:
     st.subheader("R² Score")
-    st.markdown(f"<h3 style='font-size:24px;'>{r2}</h3>", unsafe_allow_html=True)
+    st.markdown(f"<h3 style='font-size:24px;'>{r2:.2f}</h3>", unsafe_allow_html=True)
 
 # Display MAPE in the second column with larger font size
 with col2:
-    st.subheader("Mean Absolute Percentage Error (MAPE)")
+    st.subheader("Mean Absolute Percentage Error (MAPE:.2f)")
     st.markdown(f"<h3 style='font-size:24px;'>{MAPE}</h3>", unsafe_allow_html=True)
 
 ##### Accuracy Measure Section End #####
