@@ -3,8 +3,8 @@ pandas
 numpy
 yfinance
 plotly
-newsapi
 vaderSentiment
 plotly_express
 pyxirr
 scikit-learn
+newsapi-python
