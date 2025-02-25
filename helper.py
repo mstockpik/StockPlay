@@ -4,7 +4,7 @@ import os
 from pathlib import Path
 
 import yfinance as yf
-import xgboost as xgb
+#import xgboost as xgb
 import pandas as pd
 import numpy as np
 import datetime as dt
