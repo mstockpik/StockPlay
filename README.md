@@ -1,0 +1,2 @@
+# StockPlay
+Stock Market analysis
