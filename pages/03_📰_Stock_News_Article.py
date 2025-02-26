@@ -4,7 +4,7 @@ from newsapi import NewsApiClient
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 
 # Initialize NewsAPI (Replace 'YOUR_API_KEY' with your actual API key)
-newsapi = NewsApiClient(api_key='553e900df6cc49398924287c9f54c815')
+newsapi = NewsApiClient(api_key='868d82c67ccf4bb586a4ced2c1a0f258')
 
 # Streamlit App Title
 st.set_page_config(page_title="News Sentiment Analyzer", layout="wide")
